@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">Suhani's Portfolio</div>
+            <div class="right"></div>
+            <ul class="nav-links">
+                <li><a href="" role="button">Home </a></li>
+                <li><a href="#aboutme" role="button">About</a></li>
+                <li><a href="#languages" role="button">Skills</a></li>
+                <li><a href="#portfolio" role="button">Projects</a></li>
+                <li><a href="#contact" role="button">Contact Me</a></li>
+
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="first" id="aboutme">
+
+            <div class="leftsec">
+                <div class="card">
+                    <img src="me.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Suhani Dhar</h4>
+                        <p class="card-text">Connect With Me</p>
+                        <div class="social-media">
+                            <a href="https://www.linkedin.com/in/suhani-dhar-b15909265/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/suhani.dhar.25"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/_.suhani25._/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="rightsec">
+                <h2 class="sub-title">About Me</h2>
+                Hi ,My name is <span class="purple">
+                    Suhani Dhar</span>
+                <div>I am a passionate Web Developer</div>
+                <span id="element"></span>
+                <div class="aboutme">I am currently a second year stiudent pursuing BCA. I am a coding enthusiast.</div>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links " onclick="opentab('skills')">Domain</p>
+                    <p class="tab-links " onclick="opentab('experiences')">Others</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span></span><BR>Full Stack Web Developer</li>
+                        <li><span></span><BR>Front-end Developer</li>
+                        <!--<li><span>app dev</span><BR>fluttr</li>-->
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experiences">
+                    <ul>
+
+                        <li><span>Tools</span><BR>VS Code,Git</li>
+                        <li><span>Frameworks</span><BR>Bootstrap,React JS</li>
+                        <li><span>Web Dev</span><BR>Node JS </li>
+                        <li><span>Databases</span><BR>MongoDB</li>
+                            
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+
+                        <li><span>2009-2021</span><BR>National Gems H.S School(ICSE-93.6%)</li>
+                        <li><span>2021-2023</span><BR>National Gems H.S School(ISC-91%)</li>
+                        <li><span>2023-2027</span><BR>Techno Main Salt Lake</li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!--SKILLS-->
+
+        <div class="languages" id="languages">
+
+            <h2>SKILLS</h2>
+
+            <h4>HTML</h4>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="100">90%</div>
+            </div>
+
+            <h4>CSS</h4>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="100">85%</div>
+            </div>
+
+            <h4>Java</h4>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="100">80%</div>
+            </div>
+
+            <h4>Python</h4>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">65%</div>
+            </div>
+
+            <h4>Javascript</h4>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                    aria-valuemax="100">75%</div>
+            </div>
+
+            <h4>C</h4>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100">50%</div>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <!--Services-->
+
+        <!--<div id="services">
+            <div class="container">
+                <h2 class="sub-title">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quo iste a quasi!
+                            Consectetur repudiandae suscipit reprehenderit repellat voluptatum error animi quos
+                            adipisci, in quasi eius nam accusamus modi veritatis?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quo iste a quasi!
+                            Consectetur repudiandae suscipit reprehenderit repellat voluptatum error animi quos
+                            adipisci, in quasi eius nam accusamus modi veritatis?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quo iste a quasi!
+                            Consectetur repudiandae suscipit reprehenderit repellat voluptatum error animi quos
+                            adipisci, in quasi eius nam accusamus modi veritatis?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+
+        <!--Portfolio-->
+
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My Work</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work1.png">
+                        <div class="layer">
+                            <h3>To-Do List</h3>
+                            <p>An app which tracks the record of your to-do works in a list form</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="work2.png">
+                        <div class="layer">
+                            <h3>Tic-Tac-Toe</h3>
+                            <p>An app which tracks the record of your to-do works in a list form</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="work3.png">
+                        <div class="layer">
+                            <h3>TOURISM WEBPAGE</h3>
+                            <p>An app which tracks the record of your to-do works in a list form</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!--Contact-->
+
+        <div id="contact">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>suhanidhar.2504@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9330081361</p>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" name="Name">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" name="Phone">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" name="Email">
+                            </div>
+                            <div class="input-group">
+                                <label>Your Message</label>
+                                <textarea name="Your Message" rows="5"></textarea>
+                            </div>
+                            <button type="submit">SUBMIT</button>
+                        </div>
+                    </form>
+                    
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="end">
+            <h6>Developed by Suhani Dhar </h6>
+        </div>
+
+
+    </main>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['specialised in Front-End Development'],
+            typeSpeed: 100,
+        });
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwN9as1CXj_gx5wGrs0DixW5OibIcx-e1mM6aTmOkn1L11m-pstMcPsl-moWitlphxl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent !"
+                    setTimeout(function () { msg.innerHTML = " " }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+
+    </script>
+
+    <script src="script.js">
+    </script>
+
+
+</body>
+
+</html>
