@@ -82,7 +82,9 @@ main {
 
 
 .card-img-top {
-    outline: 0.5px solid aqua;
+    height: 400px;
+    width: 200px;
+    outline: 1px solid aqua;
     border-radius: 14px;
 }
 
